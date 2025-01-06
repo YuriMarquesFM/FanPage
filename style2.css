@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+
+.container-head {
+    display: flex
+}
+
+.container-head img {
+    width: 50px;
+    height: 50px
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(230, 83, 25)
+}
+
+
+
+.Shikai-Describ img {
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+
+section .container,
+h3,
+p,
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+.container h2 {
+    display: top;
+}
+
+.Shikai img {
+    float: right;
+}
+
+.container-Bankai {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+
+
+.Bankai-Discrib {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+header ul {
+    margin-left: 800px;
+}
+
+main {
+    background-color: hsl(0, 0.00%, 100.00%);
+}
+
+header nav li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.container-head h1 {
+    font-size: 24px;
+    color: #fff;
+
+}
+
+.container-head {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.container,
+.container-Bankai {
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.Perso-Discrib, .Zamp-Discrib, .Shikai-Describ, .Bankai-Discrib {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Shikai-Describ img {
+    float: none;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.figura {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
