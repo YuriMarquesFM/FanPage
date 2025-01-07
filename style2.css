@@ -10,25 +10,34 @@ main {
     padding: 20px;
 }
 
-header nav li {
-    display: inline;
-    margin-left: 16px;
-    font-size: 18px;
-}
-
-
-.container-head {
-    display: flex
-}
 
 .container-head img {
     width: 50px;
     height: 50px
 }
 
-header {
-    padding: 16px 0;
-    background-color: rgb(230, 83, 25)
+.container-head, #logo  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(202, 58, 2)
+}
+
+
+.container-head nav ul {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 850px;
+
+}
+
+#logo {
+    padding-left: 50px;
+}
+
+.container-head nav li {
+    padding-left: 30px;
+    margin-top: 10px;
 }
 
 
@@ -78,9 +87,37 @@ ul {
     padding: 16px;
 }
 
-header ul {
-    margin-left: 800px;
+.Bankai-Discrib ul {
+    display: inline-flex;
 }
+
+.Bankai-Discrib li {
+    font-weight: bold;
+    padding: 20px;
+    margin: 5px;
+    border: 3px;
+    border-style: groove;
+    border-color: #a32525;
+}
+
+h2 {
+    background-color: #333;
+}
+
+body, main{
+    background-color: #182c61 ;
+}
+
+main {
+    color: #182c61;
+    padding: 0;
+}
+
+h2 {
+    color: #f50202;
+}
+
+
 
 main {
     background-color: hsl(0, 0.00%, 100.00%);
@@ -105,11 +142,7 @@ body {
 
 }
 
-.container-head {
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
+
 
 .container,
 .container-Bankai {
@@ -144,5 +177,10 @@ li {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
+}
+
+
+section {
+    background-color: #ffd900d5;
 }
 
